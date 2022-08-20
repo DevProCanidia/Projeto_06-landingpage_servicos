@@ -5,7 +5,10 @@
 	font-family: "Open Sans";
 }
 
-html,body{height:100%;}
+html,body{
+	height:100%;
+	scroll-behavior: smooth;
+}
 
 /*
 Classes Auxiliares
@@ -38,7 +41,7 @@ section.main{
 	background-position: center;
 	width: 100%;
 	padding: 15px 0;
-	min-height: 800px;
+	min-height: 700px;
 }
 
 section.main header{
@@ -244,6 +247,7 @@ section.parallax > .center{
 	position: relative;
 	z-index: 5;/*2*/
 	margin: 40px 0;
+	top: 40px;
 	/*max-width: 960px;*/
 }
 
@@ -389,6 +393,7 @@ footer a{
 	color: #2693ff;
 	text-decoration: none;
 }
+
 
 @media screen and (max-width: 768px) {
 	nav.mobile{
