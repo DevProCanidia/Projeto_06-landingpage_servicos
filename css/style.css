@@ -5,7 +5,14 @@
 	font-family: "Open Sans";
 }
 
+<<<<<<< HEAD
 html,body{height:100%;}
+=======
+html,body{
+	height:100%;
+	scroll-behavior: smooth;
+}
+>>>>>>> 8a7f74a77bf01260caf3884a2acf7a4daa4d3da6
 
 /*
 Classes Auxiliares
@@ -38,7 +45,11 @@ section.main{
 	background-position: center;
 	width: 100%;
 	padding: 15px 0;
+<<<<<<< HEAD
 	min-height: 800px;
+=======
+	min-height: 700px;
+>>>>>>> 8a7f74a77bf01260caf3884a2acf7a4daa4d3da6
 }
 
 section.main header{
@@ -244,6 +255,10 @@ section.parallax > .center{
 	position: relative;
 	z-index: 5;/*2*/
 	margin: 40px 0;
+<<<<<<< HEAD
+=======
+	top: 40px;
+>>>>>>> 8a7f74a77bf01260caf3884a2acf7a4daa4d3da6
 	/*max-width: 960px;*/
 }
 
@@ -390,6 +405,10 @@ footer a{
 	text-decoration: none;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8a7f74a77bf01260caf3884a2acf7a4daa4d3da6
 @media screen and (max-width: 768px) {
 	nav.mobile{
 		display: block;
